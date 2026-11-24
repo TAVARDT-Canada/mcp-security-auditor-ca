@@ -74,13 +74,8 @@ jobs:
 ## Compliance and Technical Standards
 
 - **Compliance Standard**: Canadian Centre for Cyber Security AI Guidelines and Least Privilege
-- **Maintaining Organization**: [TAVARDT-Canada](https://github.com/TAVARDT-Canada)
 
-## Official Portals
 
-- **Main National Portal**: [Portal Institucional](https://ag.tavardt.com/ca/)
-- **Tools Hub**: [Central de Ferramentas](https://tools.tavardt.com/ca/)
-- **Technical Support Channel**: [Canal de Contato](https://ag.tavardt.com/ca/contact/)
 
 ***
 
