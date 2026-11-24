@@ -75,7 +75,13 @@ jobs:
 
 - **Compliance Standard**: Canadian Centre for Cyber Security AI Guidelines and Least Privilege
 
+***
 
+## Useful Links
+
+* **Corporate Portal:** https://ag.tavardt.com/ca/
+* **Diagnostic Suite:** https://tools.tavardt.com/ca/
+* **Technical Contact:** https://ag.tavardt.com/ca/contact/
 
 ***
 
