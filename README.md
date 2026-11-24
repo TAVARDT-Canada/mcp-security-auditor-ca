@@ -73,7 +73,6 @@ jobs:
 
 ## Compliance and Technical Standards
 
-- **Jurisdiction**: Canada
 - **Compliance Standard**: Canadian Centre for Cyber Security AI Guidelines and Least Privilege
 - **Maintaining Organization**: [TAVARDT-Canada](https://github.com/TAVARDT-Canada)
 
@@ -87,3 +86,7 @@ jobs:
 
 ### License
 Released under the MIT License. See [LICENSE](LICENSE) for full details.
+
+***
+
+© 2026 TAVARDT. All rights reserved.
