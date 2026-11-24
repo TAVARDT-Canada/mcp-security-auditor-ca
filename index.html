@@ -1802,7 +1802,7 @@ footer > div:first-child {
           },
           "internal-metadata": {
             "command": "node",
-            "args": ["./fetch-tool.js", "--allow-host", "metadata.cloud-provider.internal"]
+            "args": ["./fetch-tool.js", "-allow-host", "metadata.cloud-provider.internal"]
           }
         }
       };
@@ -1821,10 +1821,10 @@ footer > div:first-child {
             "command": "docker",
             "args": [
               "run",
-              "--rm",
+              "-rm",
               "-i",
-              "--read-only",
-              "--cap-drop=ALL",
+              "-read-only",
+              "-cap-drop=ALL",
               "-e",
               "DATABASE_URL=${SECURE_DB_URL}",
               "mcp/postgres:0.2.1"
@@ -1983,7 +1983,7 @@ footer > div:first-child {
 
             args.forEach(function(arg) {
               const aStr = String(arg);
-              if (aStr === "-y" || aStr.startsWith("--")) return;
+              if (aStr === "-y" || aStr.startsWith("-")) return;
               if (!pkgFound && (aStr.includes("/") || aStr.includes("-") || aStr.length > 2)) {
                 pkgFound = true;
                 pkgName = aStr;
@@ -2068,7 +2068,7 @@ footer > div:first-child {
           const dangerousShells = ["bash", "sh", "zsh", "powershell", "powershell.exe", "cmd", "cmd.exe"];
           if (dangerousShells.includes((hServer.command || "").toLowerCase())) {
             hServer.command = "docker";
-            hServer.args = ["run", "--rm", "-i", "--read-only", "--cap-drop=ALL", "sandbox-runner:latest"];
+            hServer.args = ["run", "-rm", "-i", "-read-only", "-cap-drop=ALL", "sandbox-runner:latest"];
           }
 
           hServer.args = hServer.args.map(function(arg) {
